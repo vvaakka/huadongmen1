@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>038徐士捷</title>
+    <style>
+        .yijihezi{
+            width: 700px;
+            height: 400px;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .yijicaidan{
+            padding: 0;
+        }
+        .yijicaidan>li{
+            list-style: none;
+            float: none;
+            margin: 30px 0px;
+            width: 90px;
+            height: 50px;
+            background-color: rgb(235, 235, 235);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            flex-direction: row;
+            box-shadow: 5px;
+            transition:width 0.2s linear;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(42, 161, 161);
+            font-size: 20px;
+        }
+        
+        .erjihezi1,.erjihezi2,.erjihezi3{
+            position: absolute;
+            left: 805px;
+            width: 350px;
+            height: 50px;
+            background-color: rgb(240, 255, 35);
+            border-radius: 5px;
+            flex-direction: row;
+            display:none
+        }
+        .erjicaidan1{
+            padding: 0;
+        }
+        .erjicaidan1>li{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: -5px 0px;
+            flex-direction: row;
+        }
+        .erjicaidan1>li>a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            margin: 17px;
+            padding-left: 0;
+        }
+
+        .erjicaidan2{
+            padding: 0;
+        }
+        .erjicaidan2>li{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: -5px 0px;
+            flex-direction: row;
+        }
+        .erjicaidan2>li>a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            margin: 17px;
+            padding-left: 0;
+        }
+
+        .erjicaidan3{
+            padding: 0;
+        }
+        .erjicaidan3>li{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: -5px 0px;
+            flex-direction: row;
+        }
+        .erjicaidan3>li>a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            margin: 17px;
+            padding-left: 0;
+        }
+        .yijicaidan>li:hover{
+            background-color: rgb(240, 255, 35);
+            width: 98px ;
+            box-shadow: 0 0 0 2.5px black;
+        }
+        .yijicaidan>li:hover>a{
+            color:black
+        }
+        .yijicaidan>li:hover>.erjihezi1{
+            display:block
+        }
+        .yijicaidan>li:hover>.erjihezi2{
+            display:block
+        }
+        .yijicaidan>li:hover>.erjihezi3{
+            display:block
+        }
+    </style>
+</head>
+<body>
+    <div class="yijihezi">
+        <ul class="yijicaidan">
+            <li>
+                <a href="">美食</a>
+                <div class="erjihezi1">
+                    <ul class="erjicaidan1">
+                        <li>
+                            <a href="">美食测评</a>
+                            <a href="">美食制作</a>
+                            <a href="">美食侦探</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="">音乐</a>
+                <div class="erjihezi2">
+                    <ul class="erjicaidan2">
+                        <li>
+                            <a href="">原创音乐</a>
+                            <a href="">音乐现场</a>
+                            <a href="">乐评盘点</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="">娱乐</a>
+                <div class="erjihezi3">
+                    <ul class="erjicaidan3">
+                        <li>
+                        <a href="">娱乐新闻</a>
+                        <a href="">娱乐综艺</a>
+                        <a href="">粉丝制作</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
